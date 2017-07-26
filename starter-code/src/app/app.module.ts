@@ -9,6 +9,7 @@ import { MyHomeComponentComponent } from './components/my-home-component/my-home
 import { MyMovieComponentComponent } from './components/my-movie-component/my-movie-component.component';
 
 const routes: Routes = [
+  { path: '', component: MyHomeComponentComponent },
   { path: 'home', component: MyHomeComponentComponent },
   { path: 'movie/:id', component: MyMovieComponentComponent }
 ]

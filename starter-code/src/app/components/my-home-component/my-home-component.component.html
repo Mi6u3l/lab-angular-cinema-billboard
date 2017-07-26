@@ -1,9 +1,6 @@
-<p>
-  my-home-component works!
-</p>
 <ul>
   <li *ngFor="let movie of movies">
   {{ movie.title }}
-  <a [routerLink]="['/movies',movie.id]"> details (link) </a>
+  <a [routerLink]="['/movie',movie.id]"> details (link) </a>
   </li>
 </ul>
